@@ -1,0 +1,150 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:white;
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-container {
+    display: flex;
+    background-color:#3b4d3a;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+
+/* Left Section Styling */
+.left-section {
+    background-color:#c8b6a6; 
+    color:black;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid #c8b6a6; 
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid #c8b6a6;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #3d3b38; 
+}
+
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color:#000000; 
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(111, 98, 116, 0.2); 
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.contact-item {
+    margin-bottom: 15px; 
+}
+
+h4 {
+    color:#000000; 
+    margin: 0; 
+}
+
+p {
+    margin: 0; 
+}
+
+ul {
+    list-style-type: disc;
+    padding: 10px;
+    margin: 10px 0;
+    color: #6b6761; 
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Right Section Styling */
+.right-section {
+    background-color:#f8f9f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(14, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.section-heading {
+    color: #000000;
+    font-size: 20px;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+#personal-info {
+    background-color: #f8f9f8;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#personal-info h3 {
+    font-size: 20px;
+    color: #000000;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 5px;
+   
+}
+
+#personal-info p {
+    color: #000000;
+    line-height: 1.6;
+    margin: 5px 0;
+}
+
+.right-section {
+    padding: 20px;
+    width: 65%;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    background-color:#c8b6a6; 
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px rgba(200, 182, 166, 0.4); 
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color:beige;
+}
